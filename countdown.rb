@@ -4,6 +4,7 @@ def countdown(int)
   countdown = int
   while countdown > 0 do 
     puts "#{countdown} SECOND(S)!"
+    countdown -= 1
   end
   "HAPPY NEW YEAR!"
 end
